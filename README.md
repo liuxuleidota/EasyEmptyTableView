@@ -1,7 +1,10 @@
 # EasyTableCtr
-结合MJRefresh与LYEmptyView，优雅地显示emptyView。
-Display emptyView easily with MJRefresh and LYEmptyView.
+## 关键字：代码无侵入 优雅<br/>
+结合MJRefresh与LYEmptyView，优雅地显示emptyView。<br/>
+Display emptyView easily with MJRefresh and LYEmptyView.<br/>
 LYEmptyView实现了在tableView刷新时自动切换emptyView的显示隐藏，但是第一次进入页面时肯定是空的，没有发出网络请求就显示个空的页面可能不符合产品要求，本文章旨在解决此问题。
+<br/>
+<img src="https://github.com/liuxuleidota/EasyTableCtr/blob/master/2.gif" width = "300" alt="效果展示"/>
 
 # 使用方法
 ### 1.首先集成[MJRefresh](https://github.com/CoderMJLee/MJRefresh)与[LYEmptyView](https://github.com/dev-liyang/LYEmptyView)
@@ -74,6 +77,5 @@ LYEmptyView实现了在tableView刷新时自动切换emptyView的显示隐藏，
     [self.scrollView ly_endLoading];
 }
 ```
-    
-    
+### 8.未来展望，网络请求的loading能不能也采用类似思路解决？
     
