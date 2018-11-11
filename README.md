@@ -7,6 +7,7 @@ LYEmptyView实现了在tableView刷新时自动切换emptyView的显示隐藏，
 <img src="https://github.com/liuxuleidota/EasyTableCtr/blob/master/2.gif" width = "300" alt="效果展示"/>
 
 # 使用方法
+### 1.首先集成[MJRefresh](https://github.com/CoderMJLee/MJRefresh)，[LYEmptyView](https://github.com/dev-liyang/LYEmptyView)
 ### 1.首先集成[MJRefresh](https://github.com/CoderMJLee/MJRefresh)与[LYEmptyView](https://github.com/dev-liyang/LYEmptyView)
 ### 2.新建MJRefreshComponent分类，交换beginRefreshing与endRefreshing方法
 ```
@@ -34,7 +35,7 @@ LYEmptyView实现了在tableView刷新时自动切换emptyView的显示隐藏，
     [self.scrollView ly_endLoading];
 }
 ```
-### 3.为tableView添加emptyView
+### 3.为tableView添加emptyView,此处可以通过定义BaseTableView/BaseTableViewController来简化使用
 ```
     //add empty view
     LYEmptyView *emptyV = [LYEmptyView emptyViewWithImage:[UIImage imageNamed:@"empty_page"] titleStr:@"暂无数据，点击重试" detailStr:nil];
