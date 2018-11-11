@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		DB19E28E21956C7600B94BA8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB19E28D21956C7600B94BA8 /* AppDelegate.m */; };
-		DB19E29121956C7600B94BA8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB19E29021956C7600B94BA8 /* ViewController.m */; };
-		DB19E29421956C7600B94BA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB19E29221956C7600B94BA8 /* Main.storyboard */; };
 		DB19E29621956C7600B94BA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB19E29521956C7600B94BA8 /* Assets.xcassets */; };
 		DB19E29921956C7600B94BA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB19E29721956C7600B94BA8 /* LaunchScreen.storyboard */; };
 		DB19E29C21956C7600B94BA8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB19E29B21956C7600B94BA8 /* main.m */; };
 		DB19E2A4219579E000B94BA8 /* MJRefreshComponent+Switch.m in Sources */ = {isa = PBXBuildFile; fileRef = DB19E2A3219579E000B94BA8 /* MJRefreshComponent+Switch.m */; };
+		DBD6710E219800E200166E2D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBD67109219800E100166E2D /* ViewController.m */; };
+		DBD6710F219800E200166E2D /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBD6710A219800E100166E2D /* SecondViewController.m */; };
+		DBD67110219800E200166E2D /* CustomTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBD6710C219800E200166E2D /* CustomTableViewController.m */; };
+		DBD67112219800F100166E2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBD67111219800F100166E2D /* Main.storyboard */; };
 		E0CF1963AB0624922F310732 /* libPods-EasyTableCtr.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C6662AFF4567082DEA528D0 /* libPods-EasyTableCtr.a */; };
 /* End PBXBuildFile section */
 
@@ -24,15 +26,19 @@
 		DB19E28921956C7600B94BA8 /* EasyTableCtr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyTableCtr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB19E28C21956C7600B94BA8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DB19E28D21956C7600B94BA8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		DB19E28F21956C7600B94BA8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		DB19E29021956C7600B94BA8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		DB19E29321956C7600B94BA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DB19E29521956C7600B94BA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB19E29821956C7600B94BA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB19E29A21956C7600B94BA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB19E29B21956C7600B94BA8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DB19E2A2219579E000B94BA8 /* MJRefreshComponent+Switch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MJRefreshComponent+Switch.h"; sourceTree = "<group>"; };
 		DB19E2A3219579E000B94BA8 /* MJRefreshComponent+Switch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MJRefreshComponent+Switch.m"; sourceTree = "<group>"; };
+		DBD67108219800E100166E2D /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		DBD67109219800E100166E2D /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DBD6710A219800E100166E2D /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		DBD6710C219800E200166E2D /* CustomTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewController.m; sourceTree = "<group>"; };
+		DBD6710D219800E200166E2D /* CustomTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewController.h; sourceTree = "<group>"; };
+		DBD67111219800F100166E2D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		DBD671132198027700166E2D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,12 +93,16 @@
 			children = (
 				DB19E28C21956C7600B94BA8 /* AppDelegate.h */,
 				DB19E28D21956C7600B94BA8 /* AppDelegate.m */,
-				DB19E28F21956C7600B94BA8 /* ViewController.h */,
-				DB19E29021956C7600B94BA8 /* ViewController.m */,
+				DBD671132198027700166E2D /* ViewController.h */,
+				DBD67109219800E100166E2D /* ViewController.m */,
+				DBD67108219800E100166E2D /* SecondViewController.h */,
+				DBD6710A219800E100166E2D /* SecondViewController.m */,
+				DBD6710D219800E200166E2D /* CustomTableViewController.h */,
+				DBD6710C219800E200166E2D /* CustomTableViewController.m */,
 				DB19E2A2219579E000B94BA8 /* MJRefreshComponent+Switch.h */,
 				DB19E2A3219579E000B94BA8 /* MJRefreshComponent+Switch.m */,
-				DB19E29221956C7600B94BA8 /* Main.storyboard */,
 				DB19E29521956C7600B94BA8 /* Assets.xcassets */,
+				DBD67111219800F100166E2D /* Main.storyboard */,
 				DB19E29721956C7600B94BA8 /* LaunchScreen.storyboard */,
 				DB19E29A21956C7600B94BA8 /* Info.plist */,
 				DB19E29B21956C7600B94BA8 /* main.m */,
@@ -159,9 +169,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBD67112219800F100166E2D /* Main.storyboard in Resources */,
 				DB19E29921956C7600B94BA8 /* LaunchScreen.storyboard in Resources */,
 				DB19E29621956C7600B94BA8 /* Assets.xcassets in Resources */,
-				DB19E29421956C7600B94BA8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,9 +221,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBD6710F219800E200166E2D /* SecondViewController.m in Sources */,
 				DB19E2A4219579E000B94BA8 /* MJRefreshComponent+Switch.m in Sources */,
-				DB19E29121956C7600B94BA8 /* ViewController.m in Sources */,
 				DB19E29C21956C7600B94BA8 /* main.m in Sources */,
+				DBD6710E219800E200166E2D /* ViewController.m in Sources */,
+				DBD67110219800E200166E2D /* CustomTableViewController.m in Sources */,
 				DB19E28E21956C7600B94BA8 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -221,14 +233,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		DB19E29221956C7600B94BA8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DB19E29321956C7600B94BA8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DB19E29721956C7600B94BA8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
