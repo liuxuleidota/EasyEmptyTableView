@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE6D75786BC61830001CF151 /* libPods-EasyTableViewDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E9AC9C8A660E04D991C515E /* libPods-EasyTableViewDemo.a */; };
 		DB19E28E21956C7600B94BA8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB19E28D21956C7600B94BA8 /* AppDelegate.m */; };
 		DB19E29621956C7600B94BA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB19E29521956C7600B94BA8 /* Assets.xcassets */; };
 		DB19E29921956C7600B94BA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB19E29721956C7600B94BA8 /* LaunchScreen.storyboard */; };
@@ -20,7 +21,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3E9AC9C8A660E04D991C515E /* libPods-EasyTableViewDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EasyTableViewDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		68FB40D9FA1C56B3AA3E8B7E /* Pods-EasyTableViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyTableViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EasyTableViewDemo/Pods-EasyTableViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		6C6662AFF4567082DEA528D0 /* libPods-EasyTableCtr.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EasyTableCtr.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		77248A3C7AC2A46EB137D077 /* Pods-EasyTableViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyTableViewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-EasyTableViewDemo/Pods-EasyTableViewDemo.release.xcconfig"; sourceTree = "<group>"; };
 		B8202C26D2E3038A717A936A /* Pods-EasyTableCtr.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyTableCtr.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EasyTableCtr/Pods-EasyTableCtr.debug.xcconfig"; sourceTree = "<group>"; };
 		D022A62479A956687103BA98 /* Pods-EasyTableCtr.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyTableCtr.release.xcconfig"; path = "Pods/Target Support Files/Pods-EasyTableCtr/Pods-EasyTableCtr.release.xcconfig"; sourceTree = "<group>"; };
 		DB19E28921956C7600B94BA8 /* EasyTableViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyTableViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,6 +52,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E0CF1963AB0624922F310732 /* libPods-EasyTableCtr.a in Frameworks */,
+				CE6D75786BC61830001CF151 /* libPods-EasyTableViewDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				6C6662AFF4567082DEA528D0 /* libPods-EasyTableCtr.a */,
+				3E9AC9C8A660E04D991C515E /* libPods-EasyTableViewDemo.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -67,6 +73,8 @@
 			children = (
 				B8202C26D2E3038A717A936A /* Pods-EasyTableCtr.debug.xcconfig */,
 				D022A62479A956687103BA98 /* Pods-EasyTableCtr.release.xcconfig */,
+				68FB40D9FA1C56B3AA3E8B7E /* Pods-EasyTableViewDemo.debug.xcconfig */,
+				77248A3C7AC2A46EB137D077 /* Pods-EasyTableViewDemo.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -111,10 +119,10 @@
 		DBD671382198169E00166E2D /* EasyTableView */ = {
 			isa = PBXGroup;
 			children = (
-				DBD671392198169E00166E2D /* CustomTableViewController.m */,
-				DBD6713A2198169E00166E2D /* MJRefreshComponent+Switch.h */,
 				DBD6713B2198169E00166E2D /* EasyTableView.h */,
 				DBD6713C2198169E00166E2D /* CustomTableViewController.h */,
+				DBD671392198169E00166E2D /* CustomTableViewController.m */,
+				DBD6713A2198169E00166E2D /* MJRefreshComponent+Switch.h */,
 				DBD6713D2198169E00166E2D /* MJRefreshComponent+Switch.m */,
 			);
 			path = EasyTableView;
@@ -199,7 +207,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-EasyTableCtr-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-EasyTableViewDemo-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -212,7 +220,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-EasyTableCtr/Pods-EasyTableCtr-resources.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-EasyTableViewDemo/Pods-EasyTableViewDemo-resources.sh",
 				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
@@ -221,7 +229,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EasyTableCtr/Pods-EasyTableCtr-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EasyTableViewDemo/Pods-EasyTableViewDemo-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -368,16 +376,13 @@
 		};
 		DB19E2A021956C7600B94BA8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B8202C26D2E3038A717A936A /* Pods-EasyTableCtr.debug.xcconfig */;
+			baseConfigurationReference = 68FB40D9FA1C56B3AA3E8B7E /* Pods-EasyTableViewDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = EasyTableViewDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = liu.levi.EasyTableCtr;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -386,16 +391,13 @@
 		};
 		DB19E2A121956C7600B94BA8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D022A62479A956687103BA98 /* Pods-EasyTableCtr.release.xcconfig */;
+			baseConfigurationReference = 77248A3C7AC2A46EB137D077 /* Pods-EasyTableViewDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = EasyTableViewDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = liu.levi.EasyTableCtr;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";

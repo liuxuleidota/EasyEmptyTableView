@@ -6,7 +6,8 @@
 //  Copyright © 2018 levi. All rights reserved.
 //
 
-#import "MJRefreshComponent.h"
+#import <UIKit/UIKit.h>
+#import <MJRefresh/MJRefresh.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

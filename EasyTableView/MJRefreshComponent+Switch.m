@@ -9,7 +9,6 @@
 #import "MJRefreshComponent+Switch.h"
 #import <MJRefresh/MJRefresh.h>
 #import <LYEmptyView/LYEmptyViewHeader.h>
-//#import <obj>
 
 @implementation MJRefreshComponent (Switch)
 
