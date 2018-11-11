@@ -23,7 +23,7 @@
 		6C6662AFF4567082DEA528D0 /* libPods-EasyTableCtr.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EasyTableCtr.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8202C26D2E3038A717A936A /* Pods-EasyTableCtr.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyTableCtr.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EasyTableCtr/Pods-EasyTableCtr.debug.xcconfig"; sourceTree = "<group>"; };
 		D022A62479A956687103BA98 /* Pods-EasyTableCtr.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyTableCtr.release.xcconfig"; path = "Pods/Target Support Files/Pods-EasyTableCtr/Pods-EasyTableCtr.release.xcconfig"; sourceTree = "<group>"; };
-		DB19E28921956C7600B94BA8 /* EasyTableCtr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyTableCtr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB19E28921956C7600B94BA8 /* EasyTableViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyTableViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB19E28C21956C7600B94BA8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DB19E28D21956C7600B94BA8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		DB19E29521956C7600B94BA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -39,6 +39,7 @@
 		DBD6710D219800E200166E2D /* CustomTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewController.h; sourceTree = "<group>"; };
 		DBD67111219800F100166E2D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		DBD671132198027700166E2D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DBD6711521980CC400166E2D /* EasyTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EasyTableView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,7 +74,7 @@
 		DB19E28021956C7600B94BA8 = {
 			isa = PBXGroup;
 			children = (
-				DB19E28B21956C7600B94BA8 /* EasyTableCtr */,
+				DB19E28B21956C7600B94BA8 /* EasyTableViewDemo */,
 				DB19E28A21956C7600B94BA8 /* Products */,
 				C8B0DD6694D95CC58881F2E3 /* Pods */,
 				441E444648900CEFC3A0B377 /* Frameworks */,
@@ -83,12 +84,12 @@
 		DB19E28A21956C7600B94BA8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DB19E28921956C7600B94BA8 /* EasyTableCtr.app */,
+				DB19E28921956C7600B94BA8 /* EasyTableViewDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DB19E28B21956C7600B94BA8 /* EasyTableCtr */ = {
+		DB19E28B21956C7600B94BA8 /* EasyTableViewDemo */ = {
 			isa = PBXGroup;
 			children = (
 				DB19E28C21956C7600B94BA8 /* AppDelegate.h */,
@@ -97,25 +98,34 @@
 				DBD67109219800E100166E2D /* ViewController.m */,
 				DBD67108219800E100166E2D /* SecondViewController.h */,
 				DBD6710A219800E100166E2D /* SecondViewController.m */,
-				DBD6710D219800E200166E2D /* CustomTableViewController.h */,
-				DBD6710C219800E200166E2D /* CustomTableViewController.m */,
-				DB19E2A2219579E000B94BA8 /* MJRefreshComponent+Switch.h */,
-				DB19E2A3219579E000B94BA8 /* MJRefreshComponent+Switch.m */,
 				DB19E29521956C7600B94BA8 /* Assets.xcassets */,
 				DBD67111219800F100166E2D /* Main.storyboard */,
 				DB19E29721956C7600B94BA8 /* LaunchScreen.storyboard */,
 				DB19E29A21956C7600B94BA8 /* Info.plist */,
 				DB19E29B21956C7600B94BA8 /* main.m */,
+				DBD6711421980B4100166E2D /* EasyTableView */,
 			);
-			path = EasyTableCtr;
+			path = EasyTableViewDemo;
+			sourceTree = "<group>";
+		};
+		DBD6711421980B4100166E2D /* EasyTableView */ = {
+			isa = PBXGroup;
+			children = (
+				DBD6711521980CC400166E2D /* EasyTableView.h */,
+				DBD6710D219800E200166E2D /* CustomTableViewController.h */,
+				DBD6710C219800E200166E2D /* CustomTableViewController.m */,
+				DB19E2A2219579E000B94BA8 /* MJRefreshComponent+Switch.h */,
+				DB19E2A3219579E000B94BA8 /* MJRefreshComponent+Switch.m */,
+			);
+			path = EasyTableView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DB19E28821956C7600B94BA8 /* EasyTableCtr */ = {
+		DB19E28821956C7600B94BA8 /* EasyTableViewDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DB19E29F21956C7600B94BA8 /* Build configuration list for PBXNativeTarget "EasyTableCtr" */;
+			buildConfigurationList = DB19E29F21956C7600B94BA8 /* Build configuration list for PBXNativeTarget "EasyTableViewDemo" */;
 			buildPhases = (
 				67815991EA3DC7DD89B35803 /* [CP] Check Pods Manifest.lock */,
 				DB19E28521956C7600B94BA8 /* Sources */,
@@ -127,9 +137,9 @@
 			);
 			dependencies = (
 			);
-			name = EasyTableCtr;
+			name = EasyTableViewDemo;
 			productName = EasyTableCtr;
-			productReference = DB19E28921956C7600B94BA8 /* EasyTableCtr.app */;
+			productReference = DB19E28921956C7600B94BA8 /* EasyTableViewDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -146,7 +156,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DB19E28421956C7600B94BA8 /* Build configuration list for PBXProject "EasyTableCtr" */;
+			buildConfigurationList = DB19E28421956C7600B94BA8 /* Build configuration list for PBXProject "EasyTableViewDemo" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -159,7 +169,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DB19E28821956C7600B94BA8 /* EasyTableCtr */,
+				DB19E28821956C7600B94BA8 /* EasyTableViewDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -362,7 +372,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = EasyTableCtr/Info.plist;
+				INFOPLIST_FILE = EasyTableViewDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -380,7 +390,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = EasyTableCtr/Info.plist;
+				INFOPLIST_FILE = EasyTableViewDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -395,7 +405,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DB19E28421956C7600B94BA8 /* Build configuration list for PBXProject "EasyTableCtr" */ = {
+		DB19E28421956C7600B94BA8 /* Build configuration list for PBXProject "EasyTableViewDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DB19E29D21956C7600B94BA8 /* Debug */,
@@ -404,7 +414,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DB19E29F21956C7600B94BA8 /* Build configuration list for PBXNativeTarget "EasyTableCtr" */ = {
+		DB19E29F21956C7600B94BA8 /* Build configuration list for PBXNativeTarget "EasyTableViewDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DB19E2A021956C7600B94BA8 /* Debug */,

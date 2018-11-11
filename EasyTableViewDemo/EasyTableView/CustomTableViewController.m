@@ -8,12 +8,13 @@
 
 #import "CustomTableViewController.h"
 #import <LYEmptyView/LYEmptyViewHeader.h>
+#import <objc/runtime.h>
 
 @implementation CustomTableViewController
 
 - (void)viewDidLoad{
     [super viewDidLoad];
-    
+
     //add empty view
     [self.tableView setUpEmptyView];
 }
@@ -27,7 +28,7 @@
     if (self = [super initWithFrame:frame style:style]) {
         [self setUpEmptyView];
     }
-    
+
     return self;
 }
 
@@ -42,3 +43,4 @@
 }
 
 @end
+
