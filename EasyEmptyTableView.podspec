@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.author       = { "liuxuleidota" => "liu_xu_lei@163.com" }
   s.platform     = :ios, "8.0"
   s.source       = { :git => "https://github.com/liuxuleidota/EasyEmptyTableView.git", :tag => s.version }
-  s.source_files = "EasyEmptyTableView", "/EasyEmptyTableView/**/*.{h,m}"
+  s.source_files = "EasyEmptyTableView/**/*.{h,m}"
   s.requires_arc = true
   s.dependency 'MJRefresh', '~> 3.1.0'
   s.dependency 'LYEmptyView', '~> 1.2.2'
