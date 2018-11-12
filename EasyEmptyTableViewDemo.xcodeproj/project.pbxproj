@@ -17,6 +17,7 @@
 		DBD67112219800F100166E2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBD67111219800F100166E2D /* Main.storyboard */; };
 		DBD6713E2198169E00166E2D /* CustomTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBD671392198169E00166E2D /* CustomTableViewController.m */; };
 		DBD6713F2198169E00166E2D /* MJRefreshComponent+Switch.m in Sources */ = {isa = PBXBuildFile; fileRef = DBD6713D2198169E00166E2D /* MJRefreshComponent+Switch.m */; };
+		DBD6714921995C4200166E2D /* EasyEmptyTableView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DBD6714821995C4200166E2D /* EasyEmptyTableView.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		DBD6713B2198169E00166E2D /* EasyEmptyTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyEmptyTableView.h; sourceTree = "<group>"; };
 		DBD6713C2198169E00166E2D /* CustomTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewController.h; sourceTree = "<group>"; };
 		DBD6713D2198169E00166E2D /* MJRefreshComponent+Switch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MJRefreshComponent+Switch.m"; sourceTree = "<group>"; };
+		DBD6714821995C4200166E2D /* EasyEmptyTableView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = EasyEmptyTableView.bundle; sourceTree = "<group>"; };
 		DF825CF58F1FE5EA4B860B55 /* Pods-EasyEmptyTableViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyEmptyTableViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EasyEmptyTableViewDemo/Pods-EasyEmptyTableViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -124,6 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				DBD6713B2198169E00166E2D /* EasyEmptyTableView.h */,
+				DBD6714821995C4200166E2D /* EasyEmptyTableView.bundle */,
 				DBD6713C2198169E00166E2D /* CustomTableViewController.h */,
 				DBD671392198169E00166E2D /* CustomTableViewController.m */,
 				DBD6713A2198169E00166E2D /* MJRefreshComponent+Switch.h */,
@@ -192,6 +195,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DBD67112219800F100166E2D /* Main.storyboard in Resources */,
+				DBD6714921995C4200166E2D /* EasyEmptyTableView.bundle in Resources */,
 				DB19E29921956C7600B94BA8 /* LaunchScreen.storyboard in Resources */,
 				DB19E29621956C7600B94BA8 /* Assets.xcassets in Resources */,
 			);
