@@ -1,6 +1,6 @@
 //
 //  CustomTableViewController.h
-//  EasyTableCtr
+//  EasyEmptyTableViewDemo
 //
 //  Created by levi on 2018/11/11.
 //  Copyright © 2018 levi. All rights reserved.

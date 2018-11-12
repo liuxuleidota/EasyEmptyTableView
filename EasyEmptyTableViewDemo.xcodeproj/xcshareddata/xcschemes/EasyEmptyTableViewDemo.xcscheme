@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "DB19E28821956C7600B94BA8"
-               BuildableName = "EasyTableViewDemo.app"
-               BlueprintName = "EasyTableViewDemo"
-               ReferencedContainer = "container:EasyTableViewDemo.xcodeproj">
+               BuildableName = "EasyEmptyTableViewDemo.app"
+               BlueprintName = "EasyEmptyTableViewDemo"
+               ReferencedContainer = "container:EasyEmptyTableViewDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "DB19E28821956C7600B94BA8"
-            BuildableName = "EasyTableViewDemo.app"
-            BlueprintName = "EasyTableViewDemo"
-            ReferencedContainer = "container:EasyTableViewDemo.xcodeproj">
+            BuildableName = "EasyEmptyTableViewDemo.app"
+            BlueprintName = "EasyEmptyTableViewDemo"
+            ReferencedContainer = "container:EasyEmptyTableViewDemo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "DB19E28821956C7600B94BA8"
-            BuildableName = "EasyTableViewDemo.app"
-            BlueprintName = "EasyTableViewDemo"
-            ReferencedContainer = "container:EasyTableViewDemo.xcodeproj">
+            BuildableName = "EasyEmptyTableViewDemo.app"
+            BlueprintName = "EasyEmptyTableViewDemo"
+            ReferencedContainer = "container:EasyEmptyTableViewDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "DB19E28821956C7600B94BA8"
-            BuildableName = "EasyTableViewDemo.app"
-            BlueprintName = "EasyTableViewDemo"
-            ReferencedContainer = "container:EasyTableViewDemo.xcodeproj">
+            BuildableName = "EasyEmptyTableViewDemo.app"
+            BlueprintName = "EasyEmptyTableViewDemo"
+            ReferencedContainer = "container:EasyEmptyTableViewDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

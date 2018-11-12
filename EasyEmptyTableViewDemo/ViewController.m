@@ -1,37 +1,28 @@
 //
-//  SecondViewController.m
-//  EasyTableCtr
+//  ViewController.m
+//  EasyEmptyTableViewDemo
 //
-//  Created by levi on 2018/11/11.
+//  Created by levi on 2018/11/9.
 //  Copyright © 2018 levi. All rights reserved.
 //
 
-#import "SecondViewController.h"
+#import "ViewController.h"
 #import <MJRefresh/MJRefresh.h>
-#import "CustomTableViewController.h"
 #import <LYEmptyView/LYEmptyViewHeader.h>
 
-@interface SecondViewController ()<UITableViewDelegate, UITableViewDataSource>
+@interface ViewController ()
 
 @property(nonatomic, strong) NSMutableArray *dataArr;
-@property(nonatomic, strong) CustomTableView *tableView;
 
 @end
 
-@implementation SecondViewController
+@implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    // Do any additional setup after loading the view, typically from a nib.
     
-    CustomTableView *tv = [[CustomTableView alloc] init];
-    _tableView = tv;
-    tv.delegate = self;
-    tv.dataSource = self;
-    
-    tv.frame = self.view.bounds;
-    [self.view addSubview:tv];
-    
+//    [self setUpData];
     self.dataArr = [NSMutableArray array];
     [self setUpViews];
 }
@@ -100,5 +91,6 @@
 - (void)dealloc{
     NSLog(@"%@ is dealloc", self);
 }
+
 
 @end

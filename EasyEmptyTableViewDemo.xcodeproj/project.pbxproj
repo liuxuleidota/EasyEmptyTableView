@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CE6D75786BC61830001CF151 /* libPods-EasyTableViewDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E9AC9C8A660E04D991C515E /* libPods-EasyTableViewDemo.a */; };
+		18A0506A0A8E23603E2A97D6 /* libPods-EasyEmptyTableViewDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFA6FE4DF369FD2924F9A026 /* libPods-EasyEmptyTableViewDemo.a */; };
 		DB19E28E21956C7600B94BA8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB19E28D21956C7600B94BA8 /* AppDelegate.m */; };
 		DB19E29621956C7600B94BA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB19E29521956C7600B94BA8 /* Assets.xcassets */; };
 		DB19E29921956C7600B94BA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB19E29721956C7600B94BA8 /* LaunchScreen.storyboard */; };
@@ -17,7 +17,6 @@
 		DBD67112219800F100166E2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBD67111219800F100166E2D /* Main.storyboard */; };
 		DBD6713E2198169E00166E2D /* CustomTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBD671392198169E00166E2D /* CustomTableViewController.m */; };
 		DBD6713F2198169E00166E2D /* MJRefreshComponent+Switch.m in Sources */ = {isa = PBXBuildFile; fileRef = DBD6713D2198169E00166E2D /* MJRefreshComponent+Switch.m */; };
-		E0CF1963AB0624922F310732 /* libPods-EasyTableCtr.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C6662AFF4567082DEA528D0 /* libPods-EasyTableCtr.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,9 +24,11 @@
 		68FB40D9FA1C56B3AA3E8B7E /* Pods-EasyTableViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyTableViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EasyTableViewDemo/Pods-EasyTableViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		6C6662AFF4567082DEA528D0 /* libPods-EasyTableCtr.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EasyTableCtr.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		77248A3C7AC2A46EB137D077 /* Pods-EasyTableViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyTableViewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-EasyTableViewDemo/Pods-EasyTableViewDemo.release.xcconfig"; sourceTree = "<group>"; };
+		9498E64C894F0F77413E7452 /* Pods-EasyEmptyTableViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyEmptyTableViewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-EasyEmptyTableViewDemo/Pods-EasyEmptyTableViewDemo.release.xcconfig"; sourceTree = "<group>"; };
+		AFA6FE4DF369FD2924F9A026 /* libPods-EasyEmptyTableViewDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EasyEmptyTableViewDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8202C26D2E3038A717A936A /* Pods-EasyTableCtr.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyTableCtr.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EasyTableCtr/Pods-EasyTableCtr.debug.xcconfig"; sourceTree = "<group>"; };
 		D022A62479A956687103BA98 /* Pods-EasyTableCtr.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyTableCtr.release.xcconfig"; path = "Pods/Target Support Files/Pods-EasyTableCtr/Pods-EasyTableCtr.release.xcconfig"; sourceTree = "<group>"; };
-		DB19E28921956C7600B94BA8 /* EasyTableViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyTableViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB19E28921956C7600B94BA8 /* EasyEmptyTableViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyEmptyTableViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB19E28C21956C7600B94BA8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DB19E28D21956C7600B94BA8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		DB19E29521956C7600B94BA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -41,9 +42,10 @@
 		DBD671132198027700166E2D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		DBD671392198169E00166E2D /* CustomTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewController.m; sourceTree = "<group>"; };
 		DBD6713A2198169E00166E2D /* MJRefreshComponent+Switch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MJRefreshComponent+Switch.h"; sourceTree = "<group>"; };
-		DBD6713B2198169E00166E2D /* EasyTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyTableView.h; sourceTree = "<group>"; };
+		DBD6713B2198169E00166E2D /* EasyEmptyTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyEmptyTableView.h; sourceTree = "<group>"; };
 		DBD6713C2198169E00166E2D /* CustomTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewController.h; sourceTree = "<group>"; };
 		DBD6713D2198169E00166E2D /* MJRefreshComponent+Switch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MJRefreshComponent+Switch.m"; sourceTree = "<group>"; };
+		DF825CF58F1FE5EA4B860B55 /* Pods-EasyEmptyTableViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyEmptyTableViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EasyEmptyTableViewDemo/Pods-EasyEmptyTableViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0CF1963AB0624922F310732 /* libPods-EasyTableCtr.a in Frameworks */,
-				CE6D75786BC61830001CF151 /* libPods-EasyTableViewDemo.a in Frameworks */,
+				18A0506A0A8E23603E2A97D6 /* libPods-EasyEmptyTableViewDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +65,7 @@
 			children = (
 				6C6662AFF4567082DEA528D0 /* libPods-EasyTableCtr.a */,
 				3E9AC9C8A660E04D991C515E /* libPods-EasyTableViewDemo.a */,
+				AFA6FE4DF369FD2924F9A026 /* libPods-EasyEmptyTableViewDemo.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -75,6 +77,8 @@
 				D022A62479A956687103BA98 /* Pods-EasyTableCtr.release.xcconfig */,
 				68FB40D9FA1C56B3AA3E8B7E /* Pods-EasyTableViewDemo.debug.xcconfig */,
 				77248A3C7AC2A46EB137D077 /* Pods-EasyTableViewDemo.release.xcconfig */,
+				DF825CF58F1FE5EA4B860B55 /* Pods-EasyEmptyTableViewDemo.debug.xcconfig */,
+				9498E64C894F0F77413E7452 /* Pods-EasyEmptyTableViewDemo.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -82,7 +86,7 @@
 		DB19E28021956C7600B94BA8 = {
 			isa = PBXGroup;
 			children = (
-				DB19E28B21956C7600B94BA8 /* EasyTableViewDemo */,
+				DB19E28B21956C7600B94BA8 /* EasyEmptyTableViewDemo */,
 				DB19E28A21956C7600B94BA8 /* Products */,
 				C8B0DD6694D95CC58881F2E3 /* Pods */,
 				441E444648900CEFC3A0B377 /* Frameworks */,
@@ -92,12 +96,12 @@
 		DB19E28A21956C7600B94BA8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DB19E28921956C7600B94BA8 /* EasyTableViewDemo.app */,
+				DB19E28921956C7600B94BA8 /* EasyEmptyTableViewDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DB19E28B21956C7600B94BA8 /* EasyTableViewDemo */ = {
+		DB19E28B21956C7600B94BA8 /* EasyEmptyTableViewDemo */ = {
 			isa = PBXGroup;
 			children = (
 				DB19E28C21956C7600B94BA8 /* AppDelegate.h */,
@@ -111,29 +115,29 @@
 				DB19E29721956C7600B94BA8 /* LaunchScreen.storyboard */,
 				DB19E29A21956C7600B94BA8 /* Info.plist */,
 				DB19E29B21956C7600B94BA8 /* main.m */,
-				DBD671382198169E00166E2D /* EasyTableView */,
+				DBD671382198169E00166E2D /* EasyEmptyTableView */,
 			);
-			path = EasyTableViewDemo;
+			path = EasyEmptyTableViewDemo;
 			sourceTree = "<group>";
 		};
-		DBD671382198169E00166E2D /* EasyTableView */ = {
+		DBD671382198169E00166E2D /* EasyEmptyTableView */ = {
 			isa = PBXGroup;
 			children = (
-				DBD6713B2198169E00166E2D /* EasyTableView.h */,
+				DBD6713B2198169E00166E2D /* EasyEmptyTableView.h */,
 				DBD6713C2198169E00166E2D /* CustomTableViewController.h */,
 				DBD671392198169E00166E2D /* CustomTableViewController.m */,
 				DBD6713A2198169E00166E2D /* MJRefreshComponent+Switch.h */,
 				DBD6713D2198169E00166E2D /* MJRefreshComponent+Switch.m */,
 			);
-			path = EasyTableView;
+			path = EasyEmptyTableView;
 			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DB19E28821956C7600B94BA8 /* EasyTableViewDemo */ = {
+		DB19E28821956C7600B94BA8 /* EasyEmptyTableViewDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DB19E29F21956C7600B94BA8 /* Build configuration list for PBXNativeTarget "EasyTableViewDemo" */;
+			buildConfigurationList = DB19E29F21956C7600B94BA8 /* Build configuration list for PBXNativeTarget "EasyEmptyTableViewDemo" */;
 			buildPhases = (
 				67815991EA3DC7DD89B35803 /* [CP] Check Pods Manifest.lock */,
 				DB19E28521956C7600B94BA8 /* Sources */,
@@ -145,9 +149,9 @@
 			);
 			dependencies = (
 			);
-			name = EasyTableViewDemo;
+			name = EasyEmptyTableViewDemo;
 			productName = EasyTableCtr;
-			productReference = DB19E28921956C7600B94BA8 /* EasyTableViewDemo.app */;
+			productReference = DB19E28921956C7600B94BA8 /* EasyEmptyTableViewDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -164,7 +168,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DB19E28421956C7600B94BA8 /* Build configuration list for PBXProject "EasyTableViewDemo" */;
+			buildConfigurationList = DB19E28421956C7600B94BA8 /* Build configuration list for PBXProject "EasyEmptyTableViewDemo" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -177,7 +181,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DB19E28821956C7600B94BA8 /* EasyTableViewDemo */,
+				DB19E28821956C7600B94BA8 /* EasyEmptyTableViewDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -207,7 +211,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-EasyTableViewDemo-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-EasyEmptyTableViewDemo-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -220,7 +224,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-EasyTableViewDemo/Pods-EasyTableViewDemo-resources.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-EasyEmptyTableViewDemo/Pods-EasyEmptyTableViewDemo-resources.sh",
 				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
@@ -229,7 +233,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EasyTableViewDemo/Pods-EasyTableViewDemo-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EasyEmptyTableViewDemo/Pods-EasyEmptyTableViewDemo-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -376,14 +380,17 @@
 		};
 		DB19E2A021956C7600B94BA8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 68FB40D9FA1C56B3AA3E8B7E /* Pods-EasyTableViewDemo.debug.xcconfig */;
+			baseConfigurationReference = DF825CF58F1FE5EA4B860B55 /* Pods-EasyEmptyTableViewDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = EasyTableViewDemo/Info.plist;
+				INFOPLIST_FILE = EasyEmptyTableViewDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = liu.levi.EasyTableCtr;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = liu.levi.EasyEmptyTableViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -391,14 +398,17 @@
 		};
 		DB19E2A121956C7600B94BA8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 77248A3C7AC2A46EB137D077 /* Pods-EasyTableViewDemo.release.xcconfig */;
+			baseConfigurationReference = 9498E64C894F0F77413E7452 /* Pods-EasyEmptyTableViewDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = EasyTableViewDemo/Info.plist;
+				INFOPLIST_FILE = EasyEmptyTableViewDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = liu.levi.EasyTableCtr;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = liu.levi.EasyEmptyTableViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -407,7 +417,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DB19E28421956C7600B94BA8 /* Build configuration list for PBXProject "EasyTableViewDemo" */ = {
+		DB19E28421956C7600B94BA8 /* Build configuration list for PBXProject "EasyEmptyTableViewDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DB19E29D21956C7600B94BA8 /* Debug */,
@@ -416,7 +426,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DB19E29F21956C7600B94BA8 /* Build configuration list for PBXNativeTarget "EasyTableViewDemo" */ = {
+		DB19E29F21956C7600B94BA8 /* Build configuration list for PBXNativeTarget "EasyEmptyTableViewDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DB19E2A021956C7600B94BA8 /* Debug */,
