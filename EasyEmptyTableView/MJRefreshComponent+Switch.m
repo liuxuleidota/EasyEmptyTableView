@@ -30,8 +30,11 @@
     [self customBeginRefreshing];
     
     //如果是第一次进入，执行ly_startLoading
-    if (self.scrollView.firstIn) {
+    if (!self.scrollView.haveBeenInBefore) {
         [self.scrollView ly_startLoading];
+        
+        //将view的haveBeenInBefore属性设置为YES
+        self.scrollView.haveBeenInBefore = YES;
     } else {    //如果不是第一次进入，打开emptyView的autoShowEmptyView
         self.scrollView.ly_emptyView.autoShowEmptyView = YES;
     }
@@ -39,23 +42,22 @@
 
 - (void)customEndRefreshing{
     [self customEndRefreshing];
-    //结束网络请求后，将view的firstIn属性设置为NO
-    self.scrollView.firstIn = NO;
+    
     [self.scrollView ly_endLoading];
 }
 
 @end
 
-const char firstInKey;
+static NSString* const haveBeenInBeforeKey = @"haveBeenInBeforeKey";
 
 @implementation UIView (FirstIn)
 
-- (void)setFirstIn:(BOOL)firstIn{
-    objc_setAssociatedObject(self, &firstInKey, @(firstIn), OBJC_ASSOCIATION_ASSIGN);
+- (void)setHaveBeenInBefore:(BOOL)haveBeenInBefore{
+    objc_setAssociatedObject(self, &haveBeenInBeforeKey, @(haveBeenInBefore), OBJC_ASSOCIATION_ASSIGN);
 }
 
-- (BOOL)firstIn{
-    return [objc_getAssociatedObject(self, &firstInKey) boolValue];
+- (BOOL)haveBeenInBefore{
+    return [objc_getAssociatedObject(self, &haveBeenInBeforeKey) boolValue];
 }
 
 @end

@@ -15,6 +15,7 @@
 
 @property(nonatomic, strong) NSMutableArray *dataArr;
 @property(nonatomic, strong) CustomTableView *tableView;
+@property(nonatomic, assign) BOOL inBefore;
 
 @end
 
@@ -40,13 +41,19 @@
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
         sleep(1);
         
-        if (_dataArr.count > 0) {
-            [_dataArr removeAllObjects];
-        } else {
+        if (_inBefore) {
             _dataArr = [NSMutableArray array];
+        } else{
+            _inBefore = YES;
             
-            for (int i=0; i<10; i++) {
-                [_dataArr addObject:[NSString stringWithFormat:@"第%ld行", i]];
+            if (_dataArr.count > 0) {
+                [_dataArr removeAllObjects];
+            } else {
+                _dataArr = [NSMutableArray array];
+                
+                for (int i=0; i<10; i++) {
+                    [_dataArr addObject:[NSString stringWithFormat:@"第%ld行", i]];
+                }
             }
         }
         

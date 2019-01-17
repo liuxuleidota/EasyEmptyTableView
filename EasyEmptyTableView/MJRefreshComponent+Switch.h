@@ -16,7 +16,7 @@ NS_ASSUME_NONNULL_BEGIN
 @end
 
 @interface UIView (FirstIn)
-@property(nonatomic, assign) BOOL firstIn;
+@property(nonatomic, assign) BOOL haveBeenInBefore;
 @end
 
 NS_ASSUME_NONNULL_END
