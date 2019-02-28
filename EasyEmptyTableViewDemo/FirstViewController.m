@@ -49,6 +49,7 @@
      */
     [self.tableView setUpEmptyView];
     
+    //如果第一次需要隐藏,请加上以下三行代码
     if (_showEmptyViewAtFirstIn == NO) {
         self.tableView.ly_emptyView.autoShowEmptyView = NO;
     }
