@@ -1,22 +1,23 @@
 //
-//  ViewController.m
+//  FirstViewController.m
 //  EasyEmptyTableViewDemo
 //
 //  Created by levi on 2018/11/9.
 //  Copyright © 2018 levi. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "FirstViewController.h"
 #import <MJRefresh/MJRefresh.h>
 #import <LYEmptyView/LYEmptyViewHeader.h>
+#import "MJRefreshComponent+Switch.h"
 
-@interface ViewController ()
+@interface FirstViewController ()
 
 @property(nonatomic, strong) NSMutableArray *dataArr;
 
 @end
 
-@implementation ViewController
+@implementation FirstViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -25,6 +26,7 @@
 //    [self setUpData];
     self.dataArr = [NSMutableArray array];
     [self setUpViews];
+    [self headerRefresh];
 }
 
 - (void)setUpData{
@@ -55,10 +57,22 @@
 }
 
 - (void)setUpViews{
+    self.title = [NSString stringWithFormat:@"首次%@显示", _showEmptyViewAtFirstIn ? @"":@"不"];
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"切换显示" style:(UIBarButtonItemStylePlain) target:self action:@selector(headerRefresh)];
     
     [self.tableView registerClass:UITableViewCell.class forCellReuseIdentifier:[self cellIder]];
     self.tableView.tableFooterView = [UIView new];
+    [self setUpEasyEmptyView];
+}
+
+- (void)setUpEasyEmptyView{
+    //分以下情况:
+    //自动显示emptyView,直接引用本库,并初始化即可
+    //第一次不显示emptyView,之后自动显示/隐藏,设置ly_emptyView.autoShowEmptyView = NO,并初始化即可
+    //如果需要在首次进入时就显示emptyView,即自动显示emptyView,则将emptyView的autoShowEmptyView设置为yes即可
+    if (_showEmptyViewAtFirstIn == NO) {
+        self.tableView.ly_emptyView.autoShowEmptyView = NO;
+    }
     
     //add header
     __weak typeof(self) wlf = self;

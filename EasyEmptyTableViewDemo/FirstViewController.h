@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  FirstViewController.h
 //  EasyEmptyTableViewDemo
 //
 //  Created by levi on 2018/11/9.
@@ -9,7 +9,9 @@
 #import <UIKit/UIKit.h>
 #import "CustomTableViewController.h"
 
-@interface ViewController : CustomTableViewController
+@interface FirstViewController : CustomTableViewController
+
+@property(nonatomic, assign) BOOL showEmptyViewAtFirstIn;
 
 @end
 

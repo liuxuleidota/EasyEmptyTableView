@@ -12,6 +12,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface SecondViewController : UIViewController
 
+@property(nonatomic, assign) BOOL showEmptyViewAtFirstIn;
+
 @end
 
 NS_ASSUME_NONNULL_END

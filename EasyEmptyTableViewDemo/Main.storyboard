@@ -12,7 +12,7 @@
         <!--TableViewCtr-->
         <scene sceneID="gS9-Un-E2t">
             <objects>
-                <tableViewController id="lDO-0d-Ifi" customClass="ViewController" sceneMemberID="viewController">
+                <tableViewController id="lDO-0d-Ifi" customClass="FirstViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="qPw-mt-syC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -75,7 +75,7 @@
         <!--Root-->
         <scene sceneID="CSh-p8-6Hk">
             <objects>
-                <viewController title="Root" id="ubX-XH-zTW" sceneMemberID="viewController">
+                <viewController title="Root" id="ubX-XH-zTW" customClass="RootViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="d2c-al-XJ7"/>
                         <viewControllerLayoutGuide type="bottom" id="uL4-48-hH9"/>
@@ -98,16 +98,33 @@
                                     <segue destination="IwW-Nm-nHY" kind="show" id="f4m-j4-7hB"/>
                                 </connections>
                             </button>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RFI-wa-ulB">
+                                <rect key="frame" x="237.5" y="258" width="51" height="31"/>
+                            </switch>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="首次显示EmptyView" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TqG-TJ-2mU">
+                                <rect key="frame" x="98" y="265" width="129.5" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <gestureRecognizers/>
                         <constraints>
                             <constraint firstItem="1jy-Bk-wRv" firstAttribute="centerX" secondItem="akd-u1-rnc" secondAttribute="centerX" id="KjJ-1j-GzF"/>
                             <constraint firstItem="lVx-H4-ypD" firstAttribute="top" secondItem="1jy-Bk-wRv" secondAttribute="bottom" constant="32.5" id="Svt-UB-rLj"/>
+                            <constraint firstItem="TqG-TJ-2mU" firstAttribute="centerY" secondItem="RFI-wa-ulB" secondAttribute="centerY" id="ZhD-Xj-PqC"/>
+                            <constraint firstItem="1jy-Bk-wRv" firstAttribute="top" secondItem="RFI-wa-ulB" secondAttribute="bottom" constant="29.5" id="c6L-Md-U4z"/>
+                            <constraint firstItem="RFI-wa-ulB" firstAttribute="leading" secondItem="akd-u1-rnc" secondAttribute="centerX" constant="50" id="ddi-FN-4jn"/>
+                            <constraint firstItem="RFI-wa-ulB" firstAttribute="leading" secondItem="TqG-TJ-2mU" secondAttribute="trailing" constant="10" id="kMm-e4-lM3"/>
                             <constraint firstItem="1jy-Bk-wRv" firstAttribute="centerY" secondItem="akd-u1-rnc" secondAttribute="centerY" id="oU1-qK-zDm"/>
                             <constraint firstItem="lVx-H4-ypD" firstAttribute="centerX" secondItem="1jy-Bk-wRv" secondAttribute="centerX" id="tSh-eA-Pnk"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Root" id="wcG-E1-NmH"/>
+                    <connections>
+                        <outlet property="showEmptyViewAtFirstIn" destination="RFI-wa-ulB" id="7Pk-5M-Zza"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Zc-Th-Whp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

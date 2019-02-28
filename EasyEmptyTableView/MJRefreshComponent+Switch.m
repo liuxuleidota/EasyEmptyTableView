@@ -30,7 +30,7 @@
     [self customBeginRefreshing];
     
     //如果是第一次进入，执行ly_startLoading
-    if (!self.scrollView.haveBeenInBefore) {
+    if (self.scrollView.haveBeenInBefore==NO) {
         [self.scrollView ly_startLoading];
         
         //将view的haveBeenInBefore属性设置为YES

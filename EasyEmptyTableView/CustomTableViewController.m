@@ -38,7 +38,6 @@
 
 - (void)setUpEmptyView{
     LYEmptyView *emptyV = [LYEmptyView emptyViewWithImage:[UIImage imageNamed:@"EasyEmptyTableView.bundle/empty_page"] titleStr:@"暂无数据，点击重试" detailStr:nil];
-    emptyV.autoShowEmptyView = NO;
     self.ly_emptyView = emptyV;
 }
 
