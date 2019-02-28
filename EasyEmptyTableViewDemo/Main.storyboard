@@ -38,24 +38,6 @@
             </objects>
             <point key="canvasLocation" x="1364" y="-333"/>
         </scene>
-        <!--Second View Controller-->
-        <scene sceneID="ieQ-jD-JA1">
-            <objects>
-                <viewController id="IwW-Nm-nHY" customClass="SecondViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="WHk-HQ-ibl"/>
-                        <viewControllerLayoutGuide type="bottom" id="jlz-pj-v7g"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="lNb-iQ-Auj">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="2If-Do-Z7g" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1364" y="383"/>
-        </scene>
         <!--Navigation Controller-->
         <scene sceneID="Ke3-Od-hJ0">
             <objects>
@@ -91,13 +73,6 @@
                                     <segue destination="lDO-0d-Ifi" kind="show" id="zyl-aV-9Dd"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lVx-H4-ypD">
-                                <rect key="frame" x="135" y="381" width="105" height="30"/>
-                                <state key="normal" title="push tableView"/>
-                                <connections>
-                                    <segue destination="IwW-Nm-nHY" kind="show" id="f4m-j4-7hB"/>
-                                </connections>
-                            </button>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RFI-wa-ulB">
                                 <rect key="frame" x="237.5" y="258" width="51" height="31"/>
                             </switch>
@@ -112,13 +87,11 @@
                         <gestureRecognizers/>
                         <constraints>
                             <constraint firstItem="1jy-Bk-wRv" firstAttribute="centerX" secondItem="akd-u1-rnc" secondAttribute="centerX" id="KjJ-1j-GzF"/>
-                            <constraint firstItem="lVx-H4-ypD" firstAttribute="top" secondItem="1jy-Bk-wRv" secondAttribute="bottom" constant="32.5" id="Svt-UB-rLj"/>
                             <constraint firstItem="TqG-TJ-2mU" firstAttribute="centerY" secondItem="RFI-wa-ulB" secondAttribute="centerY" id="ZhD-Xj-PqC"/>
                             <constraint firstItem="1jy-Bk-wRv" firstAttribute="top" secondItem="RFI-wa-ulB" secondAttribute="bottom" constant="29.5" id="c6L-Md-U4z"/>
                             <constraint firstItem="RFI-wa-ulB" firstAttribute="leading" secondItem="akd-u1-rnc" secondAttribute="centerX" constant="50" id="ddi-FN-4jn"/>
                             <constraint firstItem="RFI-wa-ulB" firstAttribute="leading" secondItem="TqG-TJ-2mU" secondAttribute="trailing" constant="10" id="kMm-e4-lM3"/>
                             <constraint firstItem="1jy-Bk-wRv" firstAttribute="centerY" secondItem="akd-u1-rnc" secondAttribute="centerY" id="oU1-qK-zDm"/>
-                            <constraint firstItem="lVx-H4-ypD" firstAttribute="centerX" secondItem="1jy-Bk-wRv" secondAttribute="centerX" id="tSh-eA-Pnk"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Root" id="wcG-E1-NmH"/>

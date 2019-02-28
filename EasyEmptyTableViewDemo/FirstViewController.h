@@ -7,9 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "CustomTableViewController.h"
 
-@interface FirstViewController : CustomTableViewController
+@interface FirstViewController : UITableViewController
 
 @property(nonatomic, assign) BOOL showEmptyViewAtFirstIn;
 

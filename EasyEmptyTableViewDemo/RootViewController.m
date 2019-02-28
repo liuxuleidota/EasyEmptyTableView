@@ -7,8 +7,6 @@
 //
 
 #import "RootViewController.h"
-#import "FirstViewController.h"
-#import "SecondViewController.h"
 
 @interface RootViewController ()
 

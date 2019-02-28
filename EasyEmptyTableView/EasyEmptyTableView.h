@@ -9,6 +9,6 @@
 #ifndef EasyEmptyTableView_h
 #define EasyEmptyTableView_h
 
-#import "CustomTableViewController.h"
+#import "UITableView+Empty.h"
 
 #endif /* EasyEmptyTableView_h */
