@@ -1,12 +1,12 @@
 Pod::Spec.new do |s|
   s.name         = "EasyEmptyTableView"
-  s.version      = "1.0.2"
+  s.version      = "1.0.3"
   s.summary      = "在TableView中优雅地显示emptyView。Display emptyView easily in UITableView."
   #s.description  = "结合MJRefresh与LYEmptyView，优雅地显示emptyView。Display emptyView easily with MJRefresh and LYEmptyView."
   s.homepage     = "https://github.com/liuxuleidota/EasyEmptyTableView"
   s.license      = "MIT"
   s.author       = { "liuxuleidota" => "liu_xu_lei@163.com" }
-  s.platform     = :ios, "8.0"
+  s.platform     = :ios, "7.0"
   s.source       = { :git => "https://github.com/liuxuleidota/EasyEmptyTableView.git", :tag => s.version }
   s.source_files = "EasyEmptyTableView/**/*.{h,m}"
   s.resource     = 'EasyEmptyTableView/EasyEmptyTableView.bundle'
