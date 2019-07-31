@@ -6,8 +6,9 @@ LYEmptyView实现了在tableView刷新时自动切换emptyView的显示隐藏,�
 <br/>
 <img src="https://github.com/liuxuleidota/EasyEmptyTableView/blob/master/demo.gif" width = "300" align="center" alt="效果展示"/>
 
-# 使用方法
-#### 1.首先集成[MJRefresh](https://github.com/CoderMJLee/MJRefresh)，[LYEmptyView](https://github.com/dev-liyang/LYEmptyView)，[EasyEmptyTableView](https://github.com/liuxuleidota/EasyEmptyTableView)
+# 使用方法/Usage
+#### 1.CocoaPods:pod 'EasyEmptyTableView', '~> 1.0'
+或者直接使用源码：[MJRefresh](https://github.com/CoderMJLee/MJRefresh)，[LYEmptyView](https://github.com/dev-liyang/LYEmptyView)，[EasyEmptyTableView](https://github.com/liuxuleidota/EasyEmptyTableView)
 #### 2.引入相关文件
 ```
 #import <MJRefresh/MJRefresh.h>
