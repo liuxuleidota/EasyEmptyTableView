@@ -7,7 +7,7 @@ target 'EasyEmptyTableViewDemo' do
 
   # Pods for EasyEmptyTableViewDemo
 
-pod 'LYEmptyView', '~> 1.2.2'
-pod 'MJRefresh', '~> 3.1.0'
+pod 'LYEmptyView'
+pod 'MJRefresh'
 
 end

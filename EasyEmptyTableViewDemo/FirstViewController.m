@@ -63,7 +63,7 @@
         [wlf setUpData];
     }];
     
-    self.tableView.ly_emptyView.tapContentViewBlock = ^{
+    self.tableView.ly_emptyView.tapEmptyViewBlock = ^{
         [wlf headerRefresh];
     };
 }
