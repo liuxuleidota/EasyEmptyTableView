@@ -1,0 +1,35 @@
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+# For a list of all available plugins, check out
+#
+#     https://docs.fastlane.tools/plugins/available-plugins
+#
+
+# Uncomment the line if you want fastlane to automatically update itself
+# update_fastlane
+
+default_platform(:ios)
+
+platform :ios do
+  desc "提升版本号并打tag，最后push到远程，用法：fastlane push_tag tag:<版本号>"
+  lane :push_tag do |options|
+    temp = options[:tag]
+    tag = temp ? temp : get_version_number(xcodeproj: proj, target: scheme)
+
+    if git_tag_exists(tag: tag)
+      log(type:-1, msg:"已存在该tag,请手动删除后再试")
+    else
+      git_add
+      msg = "[Version] #{tag}"
+      git_commit(path: "./.", message: msg, allow_nothing_to_commit: true)
+      add_git_tag(tag: tag)
+      push_to_git_remote
+      log(type:1, msg:msg)
+    end
+  end
+end
