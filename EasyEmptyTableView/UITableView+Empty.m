@@ -12,7 +12,7 @@
 @implementation UITableView (Empty)
 
 - (void)setUpEmptyView{
-    LYEmptyView *emptyV = [LYEmptyView emptyViewWithImage:[UIImage imageNamed:@"EasyEmptyTableView.bundle/empty_page"] titleStr:@"暂无数据，点击重试" detailStr:nil];
+    LYEmptyView *emptyV = [LYEmptyView emptyViewWithImageStr:@"EasyEmptyTableView.bundle/empty_page" titleStr:@"暂无数据，点击重试" detailStr:nil];
     self.ly_emptyView = emptyV;
 }
 
